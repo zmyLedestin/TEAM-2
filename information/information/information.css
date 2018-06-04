@@ -1,0 +1,128 @@
+*{
+	background-color: #f4f9f4;
+	font-size:18px;
+	color:#616161;
+}
+
+.image{
+	width:100%;
+	height:250px;
+	background-color: #8aae92;
+}
+
+img{
+	margin:0 auto;
+	text-align:center;
+	margin-left:840px;
+	margin-top:30px;
+}
+
+input{
+	border:1px solid #8aae92;
+	height:35px;
+	width:300px;
+}
+
+.name{
+
+	width:1920px;
+     line-height: 60px;
+     margin-top:30px;
+    margin: 30px auto;
+     text-align:center;
+   
+}
+
+
+form   
+        {   
+           
+            display: flex;   
+            flex-flow: column wrap;   
+            justify-content: center;   
+            align-items: center;   
+        }   
+        form .frame   
+        {   
+            display: flex;   
+            flex-flow: row nowrap;   
+        }   
+        form .frame input   
+        {   
+            display: none;   
+        }   
+        form .frame label   
+        {   
+            cursor: pointer;   
+            position: relative;   
+            width: 30px;   
+            height: 30px;   
+            margin: 10px;   
+            background: #8ABA56;   
+            transition: all 0.3s ease-in-out;   
+            font-size: 12pt;   
+            color: #FFF;   
+            -webkit-font-smoothing: antialiased;   
+        }   
+        form .frame label.radio   
+        {   
+            border-radius: 100%;   
+        }   
+        form .frame label.check   
+        {   
+            border-radius: 5px;   
+        }   
+        form .frame label .fa   
+        {   
+            position: absolute;   
+            top: 0;   
+            left: 0;   
+            rightright: 0;   
+            bottombottom: 0;   
+            opacity: 0;   
+            -webkit-transform: scale(0);   
+            transition: all 0.3s ease-in-out;   
+            line-height: 30px;   
+            text-align: center;   
+        }   
+        form .frame input:checked + label   
+        {   
+            background: #678b40;   
+        }   
+        form .frame input:checked + label .fa   
+        {   
+            opacity: 1;   
+            -webkit-transform: scale(1);   
+        }  
+
+ ul{
+    width:800px; 
+    height:200px;
+    margin-left:-1300px;
+}
+li{width:195px;height:98px;margin:1px auto; float:left;list-style-type:none}
+
+
+.submit{
+	margin-top:30px;
+}
+
+#bot1{
+	background-color: #8aae92;
+	color:white;}
+
+
+
+#bot2{
+	background-color: #8aae92;
+	color:white;
+}
+
+footer{
+	padding:30px;
+	font-size:16px;
+	text-align: center;
+	margin:50px auto;
+	background-color: #8aae92;
+	color:white;
+}

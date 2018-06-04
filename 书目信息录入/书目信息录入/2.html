@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>个人信息填写</title>
+	<link rel="stylesheet" type="text/css" href="1.css">
+	<script type="text/javascript">
+function effect(){
+ document.getElementById("demo").innerHTML = "提交成功!"}
+
+</script>
+
+</head>
+<body>
+	<header>
+		<img src="3.PNG" class="xixi">
+		<img src="4.PNG" class="hei">
+		<ul id="navigation">
+				<li><a href="#" class="on">转转--二手书交易平台</a></li>
+				<li><a href="#" class="zz">我的购物车</a></li>
+				<li><a href="#" class="ss">首页</a></li>
+			</ul>
+
+
+
+
+	</header>
+	
+		
+	
+	<form id="demo">
+		<fieldset>
+			<legend>我要卖书</legend>
+书本名称：<input type="text" name="name" /><br />
+书本价格：<input type="text" name="name" /><br />
+书本介绍：<input type="text" name="name" /><br />
+书本图片：<input type="file" name="img" multiple="multiple" /><br>
+书本标签：<select name="school">
+<option value="华中师范大学">华中师范大学</option>
+<option value="华中科技大学">华中科技大学</option>
+<option value="武汉理工大学">武汉理工大学</option>
+
+</select>
+
+<select name="book">
+<option value="教育教辅">教育教辅</option>
+<option value="科技生活">科技生活</option>
+<option value="经济管理">经济管理</option>
+<option value="人文社科">人文社科</option>
+
+</select><br>
+交易方式:
+自取
+<input type="radio" checked="checked" name="name" value="helpyourself" />
+包送
+<input type="radio" name="name" value="sendyoubook" /><br>
+您的学校：<input type="text" name="name" /><br />
+您的楼栋：<input type="text" name="name" /><br />
+QQ：<input type="text" name="name" /><br>
+E-mail：<input type="email" name="email" autocomplete="off" /><br>
+<button onclick="effect()" type="button" >提交</button>
+</fieldset>
+</form>
+
+
+
+</body>
+</html>
